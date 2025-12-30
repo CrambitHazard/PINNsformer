@@ -23,7 +23,8 @@ class ActivationFunctions:
         return z
     
     def ReLU(self, y):
-        z=max(0,y)
+        # z=max(0,y) #this works only for single values
+        z=np.maximum(0,y) #this works for arrays
         return z
 
     def softplus(self, y):
