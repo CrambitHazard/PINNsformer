@@ -2,7 +2,7 @@
 # but have different weights and biases, and therefore different outputs.
 
 import numpy as np
-import random
+#import random
 from activation_functions import ActivationFunctions as af
 af = af(None, None, None)  #instantiate the class
 
@@ -10,9 +10,9 @@ x=np.array([0.1, 0.2, 0.3, 0.4, 0.5]) #no changes here
 t=np.array([0.6, 0.7, 0.8, 0.9, 1.0])
 print("shape of x: ", np.shape(x), "shape of t: ", np.shape(t))
 
-w_x=np.array([0.5,0.4,0.3,0.2,0.1]) #these now become arrays instead of single values
-w_t=np.array([1.0,0.9,0.8,0.7,0.6])
-b=np.array([1.0,0.8,0.6,0.4,0.2])
+w_x=np.array([0.5,0.4,0.3,0.2]) #these now become arrays instead of single values
+w_t=np.array([1.0,0.9,0.8,0.7])
+b=np.array([1.0,0.8,0.6,0.4])
 print("shape of w_x: ", np.shape(w_x), "shape of w_t: ", np.shape(w_t), "shape of b: ", np.shape(b))
 
 memory={'w_x':w_x, 'w_t':w_t, 'b':b}
