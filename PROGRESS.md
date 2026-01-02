@@ -13,4 +13,5 @@ Day 2 - 31/12/2025 - Recapped Day 1 - recaps/Day1.py
                    - Coded how backprop works mostly, doing a backward pass on the last layer only - backprop.py
 Day 3 - 1/1/2025 - Recapped Day 2 - recaps/Day2.py
 
-Day 4 - 2/1/2025 - Redid the Day 2 Recap
+Day 4 - 2/1/2025 - Redid the Day 2 Recap - redo/Day2.py
+                 - Coded full backprop through all layers and variables - full_backprop.py
